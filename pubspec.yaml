@@ -1,0 +1,35 @@
+name: imc_calculator
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.7.0+51
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_modular: ^2.0.0+1
+  flutter_mobx:
+  mobx: ^1.2.1+4
+  flutter_localizations:
+    sdk: flutter
+  
+dev_dependencies:
+  build_runner:
+  mobx_codegen:
+  modular_codegen: any
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/imc_cal.png
+    - lib/assets/imc_health.jpg
+    - lib/assets/imc_abaixo.png
+    - lib/assets/imc_normal.png
+    - lib/assets/imc_sobrepeso.png
+    - lib/assets/imc_obesidade1.png
+    - lib/assets/imc_obesidade2.png
+    - lib/assets/imc_obesidade3.png
